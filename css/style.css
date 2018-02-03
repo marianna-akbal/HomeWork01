@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logotype{
+
+}
+
+.navigation{
+  display: flex;
+  width: 100%;
+}
+
+.navigation__elements{
+  display: flex;
+  justify-content: flex-end;;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.list__element {
+  padding-right: 20px;
+  align-self: center;
+}
+
+.main__element {
+  width: 100vw;
+  height: 400px;
+  max-width: 100%;
+  background-color: #143f51;
+  background-image: url('../images/main.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main__extension{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100vw;
+  height: 300px;
+  max-width: 100%;
+  background-color: #e1dee2;
+}
+
+.main__extension__article-one{
+  padding: 15px  10px 10px 10px;
+  font-size: 0.8rem;
+}
+
+.main__extension__article-two{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center
+}
+
+.article-two__rectangle-one{
+  background-color: #27a9df;
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-image: url('../images/apple.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.article-two__rectangle-two{
+  background-color: #27a9df;
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-image: url('../images/windows.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.article-two__rectangle-three {
+  background-color: #27a9df;
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-image: url('../images/android.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+
+}
+
+.main__extension__article-three{
+  font-size: 0.8rem;
+  margin-top: 15px;
+  line-height: 1.4rem;
+}
